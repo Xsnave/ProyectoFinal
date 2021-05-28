@@ -41,23 +41,33 @@ app.use(express.urlencoded({
 }));
 
 app.get('/', (req, res) => {
-    res.render("home");
+    res.render("home",{
+        ruta:'/assets/css/StyleInicio.css'
+    });
 });
 
 app.get('/Servicios', (req, res) => {
-    res.render('servicios');
+    res.render('servicios',{
+        ruta:'/assets/css/StyleS.css'
+    });
 });
 
 app.get('/Productos', (req, res) => {
-    res.render('productos');
+    res.render('productos',{
+        ruta:'/assets/css/StyleProductos.css'
+    });
 });
 
 app.get('/Nosotros', (req, res) => {
-    res.render('nosotros');
+    res.render('nosotros',{
+        ruta:'/assets/css/StylesN.css'
+    });
 });
 
 app.get('/Contacto', (req, res) => {
-    res.render('contacto');
+    res.render('contacto',{
+        ruta:'/assets/css/StyleC.css'
+    });
 });
 
 app.post('/Contacto', async(req, res) => {
