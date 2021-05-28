@@ -1,0 +1,31 @@
+#Footer {
+  background-color: #262626;
+  width: 99.9%;
+  height: 152px;
+  margin-top: 21px;
+}
+
+.Footer-Texto {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+.Footer-Texto span {
+  color: red;
+}
+
+.Social-Media {
+  padding-top: 10px;
+  text-align: center;
+}
+.Social-Media img {
+  border-radius: 30px;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+.Social-Media a {
+  margin: 0px 5px;
+}

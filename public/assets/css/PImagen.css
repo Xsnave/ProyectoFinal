@@ -1,0 +1,50 @@
+.container-Productos {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 75vh;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.box > img {
+  height: calc(100% - 10vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+  color: #fff;
+}
+
+.box:hover span{
+    transition: 0.1s;
+    margin-top: 20px;
+    max-width: 100%;
+    padding-bottom: 65px;
+    background-color: #262626;
+    color: #fff;
+    
+}
+.box:hover span{
+  transition: 0.5s;
+  margin-top: 20px;
+  box-shadow: 0 20px 30px #fff;
+}
+.box:hover{
+  transition: 0.7s;
+  box-shadow: 0 20px 30px #3434a5;
+}

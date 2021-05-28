@@ -1,0 +1,159 @@
+
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  font-family: bignoddletitling;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+#Servicios {
+  padding-top: 80px;
+  background-color: white;
+  padding-bottom: 10px;
+}
+#Servicios p {
+  font-size: 18px;
+}
+#Servicios img {
+  width: 250px;
+  height: 250px;
+}
+#Productos-Servicio {
+  padding-top: 50px;
+  margin-left: 20%;
+  float: left;
+}
+#Reparacion {
+  padding-top: 47px;
+  padding-right: 20%;
+  float: right;
+}
+#Reparacion p{
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  width: 250px;
+}
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  max-width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #262626;
+}
+.container:hover .overlay {
+  opacity: 0.9;
+  border-radius: 10px;
+}
+.container:hover .overlay .text {
+  opacity: 1;
+}
+.text {
+  color: #fff;
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.button {
+  border-radius: 4px;
+  background-color: #262626;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  padding: 18px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 24.5px;
+}
+.button2 {
+  border-radius: 4px;
+  background-color: #262626;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  padding: 18px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.button span,
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after,
+.button2 span::after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover,
+.button2:hover {
+  background-color: #3434a5;
+}
+.button:hover span,
+.button2:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after,
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#Footer {
+  background-color: #262626;
+  width: 99.9%;
+  height: 130px;
+}
+.Footer-Texto {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+.Footer-Texto span {
+  color: red;
+}
+.Social-Media {
+  text-align: center;
+}
+.Social-Media img {
+  border-radius: 30px;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+.Social-Media a {
+  margin: 0px 5px;
+}
